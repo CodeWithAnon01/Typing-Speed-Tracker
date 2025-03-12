@@ -19,21 +19,6 @@ This project is a **Typing Speed Test Tracker** that evaluates a user's typing s
 - **C++** (Core logic)
 - **Crow Library** (Web framework for API handling)
 
-## Project Structure
-```
-TypingTestGame/
-│── frontend/
-│   ├── index.html        # Main UI structure
-│   ├── style.css         # Styling for the UI
-│── backend/
-│   ├── main.cpp          # Main entry point (Crow server)
-│   ├── GameManager.h     # Header file for game logic
-│   ├── GameManager.cpp   # Implementation of game logic
-│── assets/
-│   ├── paragraphs.txt    # List of predefined paragraphs
-│── README.md             # Project Documentation
-```
-
 ## Installation and Setup
 ### Prerequisites
 - C++ Compiler (e.g., g++)
@@ -67,9 +52,9 @@ TypingTestGame/
 | GET | `/resetGame` | Resets the game state |
 
 ## Object-Oriented Concepts Used
-- **Encapsulation**: The `GameManager` class encapsulates game logic.
-- **Inheritance**: The `TypingTest` class extends core game functionality.
-- **Polymorphism**: Different typing modes can be handled through method overriding.
+- **Encapsulation**
+- **Inheritance**
+- **Polymorphism**
 - **Abstraction**: The game logic is hidden from the frontend and accessed via APIs.
 
 ## Future Enhancements
